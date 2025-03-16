@@ -168,7 +168,7 @@ export default function Users() {
           </Link>
       </main>
       {/* page5 */}
-      <main className=" min-w-screen h-auto pb-10 flex justify-center items-center">
+      <main className="min-w-screen h-auto p-5 sm:p-0 md:pb-10 pb-14 flex justify-center items-center">
         <Study/>
       </main>
     </>

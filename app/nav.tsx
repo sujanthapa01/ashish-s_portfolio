@@ -12,7 +12,7 @@ export default function Nav() {
           <img src={Logo.src} alt="logo" className="h-10 rounded-full w-12" />
         </Link>
       </ul>
-      <ul className="flex h-full justify-between sm:text-sm text-base-content font-semibold text-[10px] gap-4  w-auto rounded-4xl   items-center sm:px-4 ">
+      <ul className="flex h-full justify-between sm:text-sm text-base-content font-semibold text-[10px] gap-0 min-[275px]:gap-4  w-auto rounded-4xl   items-center sm:px-4 ">
         <li>
           <Link
             className="px-4 py-3 rounded-sm hover:bg-neutral duration-700 dropdown dropdown-hover"
