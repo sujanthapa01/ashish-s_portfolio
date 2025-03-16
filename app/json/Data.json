@@ -1,0 +1,52 @@
+{
+  "name": "Ashish",
+  "description1": "a Creative and Passionate Full-Stack Developer. ",
+  "content1": "I am a web developer with a passion for solving problems through technology. My journey began as a linguist, interpreting complex languages, which naturally transitioned into decoding programming languages. Outside of coding, I enjoy woodworking and sailing, always eager to learn and create!",
+  "exp": {
+    "title": "Experience",
+    "content": [
+      {
+        "_id": 1,
+        "logo": "Logo 1",
+        "position": "Position 1",
+        "date": "Date 1",
+        "description": "Description 1"
+      },
+      {
+        "_id": 2,
+        "logo": "Logo 2",
+        "position": "Position 2",
+        "date": "Date 2",
+        "description": "Description 2"
+      },
+      {
+        "_id": 3,
+        "logo": "Logo 3",
+        "position": "Position 3",
+        "date": "Date 3",
+        "description": "Description 3"
+      },
+      {
+        "_id": 4,
+        "logo": "Logo 4",
+        "position": "Position 4",
+        "date": "Date 4",
+        "description": "Description 4"
+      },
+      {
+        "_id": 5,
+        "logo": "Logo 5",
+        "position": "Position 5",
+        "date": "Date 5",
+        "description": "Description 5"
+      },
+      {
+        "_id": 6,
+        "logo": "Logo 6",
+        "position": "Position 6",
+        "date": "Date 6",
+        "description": "Description 6"
+      }
+    ]
+  }
+}

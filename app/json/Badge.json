@@ -1,0 +1,20 @@
+{
+    "badges": [
+        {"id": 1, "badge": "Tailwind CSS"},
+        {"id": 2, "badge": "Vercel"},
+        {"id": 3, "badge": "Next.js"},
+        {"id": 4, "badge": "React"},
+        {"id": 5, "badge": "Bootstrap"},
+        {"id": 6, "badge": "JavaScript"},
+        {"id": 7, "badge": "TypeScript"},
+        {"id": 8, "badge": "Three js"},
+        {"id": 9, "badge": "Jwt"},
+        {"id": 10, "badge": "Html5"},
+        {"id": 11, "badge": "Css3"},
+        {"id": 12, "badge": "Vite"},
+        {"id": 13, "badge": "Mongodb"},
+        {"id": 14, "badge": "Mysql"},
+        {"id": 15, "badge": "Node js"},
+        {"id":"16","badge":"Express js"}
+    ]
+}
