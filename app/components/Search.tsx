@@ -56,12 +56,12 @@ export default function Chatbot() {
         <Dark />
       </div>
       {Open ? (
-        <div className="fixed bottom-4 right-4 w-auto p-6 md:w-80 bga shadow-lg rounded-lg border border-gray-200">
+        <div className="fixed bottom-4 right-4 w-auto p-4 md:w-86 bga shadow-lg rounded-lg border border-gray-200">
           <div className="p-4 h-36 md:h-64 overflow-y-auto">
             {messages.map((msg, index) => (
               <div
                 key={index}
-                className={`mb-2 p-2 rounded-lg ${msg.sender === 'user' ? 'bg-blue-500 text-white ml-auto' : 'bg-gray-200 text-black'}`}
+                className={`mb-2 p-2 rounded-lg ${msg.sender === 'user' ? 'bg-blue-500 chat chat-end chat-bubble text-white ml-auto' : 'bg-gray-200 chat chat-start chat-bubble text-black'}`}
                 style={{ maxWidth: '70%', animation: 'fadeIn 0.5s' }}
               >
                 {msg.text}

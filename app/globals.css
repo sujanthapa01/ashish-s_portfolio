@@ -1,7 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
 @import "tailwindcss";
+
 @plugin "daisyui" {
   themes: all;
 }
+@plugin "daisyui/theme" {
+  name: "sunset";
+  default: false;
+  prefersdark: false;
+  color-scheme: "dark";
+  --color-base-100: oklch(14% 0.005 285.823);
+  --color-base-200: oklch(21% 0.006 285.885);
+  --color-base-300: oklch(27% 0.006 286.033);
+  --color-base-content: oklch(96% 0.001 286.375);
+  --color-primary: oklch(64% 0.2 131.684);
+  --color-primary-content: oklch(98% 0.031 120.757);
+  --color-secondary: oklch(59% 0.293 322.896);
+  --color-secondary-content: oklch(97% 0.017 320.058);
+  --color-accent: oklch(60% 0.118 184.704);
+  --color-accent-content: oklch(98% 0.014 180.72);
+  --color-neutral: oklch(14% 0.005 285.823);
+  --color-neutral-content: oklch(98% 0 0);
+  --color-info: oklch(60% 0.126 221.723);
+  --color-info-content: oklch(98% 0.019 200.873);
+  --color-success: oklch(59% 0.145 163.225);
+  --color-success-content: oklch(97% 0.021 166.113);
+  --color-warning: oklch(66% 0.179 58.318);
+  --color-warning-content: oklch(98% 0.022 95.277);
+  --color-error: oklch(58% 0.253 17.585);
+  --color-error-content: oklch(96% 0.015 12.422);
+  --radius-selector: 2rem;
+  --radius-field: 2rem;
+  --radius-box: 0rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 1;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -22,5 +59,49 @@
 }
 
 
+.big-shoulders-stencil-tt {
+  font-family: "Big Shoulders Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 
+.tektur-GG {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
+.big-shoulders-inline-b {
+  font-family: "Big Shoulders Inline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}

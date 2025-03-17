@@ -5,7 +5,7 @@ export default function Landing() {
     <>
       <motion.div
         initial={{ y: 0 }}
-        animate={{ y: -1000 }}
+        animate={{ y: -2000 }}
         transition={{ delay: 3.5, duration: 3 }}
         className=" min-w-screen min-h-screen z-20 fixed bg-black flex justify-center items-center text-5xl"
       >

@@ -25,7 +25,7 @@ export default function Users() {
                   className="md:text-7xl min-[360px]:text-5xl  text-3xl font-bold flex gap-3 justify-center"
                 >
                   <h1>Hi,I am </h1>
-                  <a className=" text-transparent bg-clip-text bg-gradient-to-l -rotate-4 from-secondary via-green-500 to-base-content border-2 border-s-0 border-t-0 border-e-0 border-accent">
+                  <a className=" text-transparent bg-clip-text bg-gradient-to-l -rotate-4 from-red-600  to-green-500 border-2 border-s-0 border-t-0 border-e-0 border-accent">
                     {Data.name}
                   </a>
                 </motion.div>
@@ -33,7 +33,7 @@ export default function Users() {
                   initial={{ y: 100, opacity: 0 }}
                   animate={{ y: 0, opacity: 100 }}
                   transition={{ delay: 0.3, duration: 1 }}
-                  className="py-6 md:text-sm text-[12px]"
+                  className="py-6 md:text-sm text-[12px] big-shoulders-inline-b"
                 >
                   {Data.description1}
                   {Data.content1}
@@ -57,15 +57,15 @@ export default function Users() {
       {/* 2nd Page */}
       <main className="min-w-screen min-h-auto flex justify-center border border-neutral border-b-0 border-e-0 border-s-0 rounded-t-2xl">
         <div className="Page2nd w-full p-4 md:w-3/4">
-          <h1 className="text-4xl">{Data.exp.title}</h1>
+          <h1 className="text-4xl tektur-GG">{Data.exp.title}</h1>
           <div className="grid py-12 grid-cols-1 md:grid-cols-2 gap-12">
             {Data.exp.content.map((exp) => (
               <motion.div
                 key={exp._id}
                 initial={{ y: 100, opacity: 0, scale: 0.6 }}
                 whileInView={{ y: 0, opacity: 100, scale: 1 }}
-                transition={{ delay: 0.4, duration: 1 }}
-                className="card border-s border-neutral shadow-lg shadow-base-300 md:-rotate-2 hover:shadow-xl transform hover:scale-105"
+                transition={{ delay: 0.3, duration: 1 }}
+                className="card border-s border-neutral shadow-lg rounded-2xl shadow-base-300 md:-rotate-2 hover:shadow-xl transform hover:scale-105"
               >
                 <div className="card-body grid grid-cols-2 gap-6">
                   <h2 className="card-title">{exp.logo}</h2>
@@ -97,7 +97,7 @@ export default function Users() {
       </motion.main>
       {/* page4th */}
       <main className="min-w-screen min-h-full w-full flex flex-col gap-5 md:p-10 items-center justify-center ">
-        <h1 className="w-full md:w-3/5 text-5xl p-6">Projects</h1>
+        <h1 className="w-full md:w-3/5 text-5xl p-6 tektur-GG">Projects</h1>
         <div className="page h-full w-3/4 flex flex-wrap justify-center gap-15">
           <motion.div
             whileHover={{ y: -5 }}

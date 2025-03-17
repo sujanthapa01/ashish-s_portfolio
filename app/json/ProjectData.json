@@ -3,23 +3,23 @@
   "cont": [
     {
       "_id": 1,
-      "img": "@public/globe.svg",
-      "heading": "Edumatica",
+      "img": "/images.jpeg",
+      "heading": "Eduvibe",
       "description": "Eduvibe is a platform that allow users to learn different languages",
       "link": "https://eduviibe.netlify.app/",
       "badge": [
         {
           "_id": "1",
-          "badges": [{"_id":"1","badge":"Tailwind Css"}, {"_id":"2","badge":"React"}, {"_id":"3","badge":"javascript"}]
+          "badges": [{"_id":"1","badge":"Tailwind Css"}, {"_id":"2","badge":"React"}, {"_id":"3","badge":"javascript"},{"_id":"4","badge":"Mongodb"},{"_id":"5","badge":"Jwt"},{"_id":"6","badge":"Expressjs"}]
         }
       ]
     },
     {
       "_id": 2,
-      "img": "@public/file.svg",
+      "img": "/Spotify-img.webp",
       "heading": "Spotify clone",
-      "description": "Eduvibe is a platform that allow users to learn different languages",
-      "link": "",
+      "description": "It is a clone of Spotify full code not upload in website",
+      "link": "https://spotify-clone-pi-taupe.vercel.app/",
       "badge": [
         {
           "_id": "2",
@@ -29,27 +29,27 @@
     },
     {
       "_id": 3,
-      "img": "@public/file.svg",
-      "heading": "Item 3",
-      "description": "Description for item 3.",
-      "link": "",
+      "img": "/Eduvibe - Google Chrome 16-03-2025 03_39_17 PM.png",
+      "heading": "Portfolio",
+      "description": "This portfolio is incompleted",
+      "link": "https://cofolio.netlify.app/",
       "badge": [
         {
           "_id": "3",
-          "badges": [{"_id":"1","badge":"Tailwind Css"}, {"_id":"2","badge":"React"}, {"_id":"3","badge":"javascript"}]
+          "badges": [{"_id":"1","badge":"Tailwind Css"}, {"_id":"2","badge":"React"}, {"_id":"3","badge":"javascript"},{"_id":"4","badge":"spline"},{"_id":"5","badge":"Reactvite"}]
         }
       ]
     },
     {
       "_id": 4,
-      "img": "@public/file.svg",
-      "heading": "Item 3",
-      "description": "Description for item 3.",
-      "link": "",
+      "img": "/newweb.png",
+      "heading": "Logo contant",
+      "description": "The uncompleted project that maked by me and my first project ",
+      "link": "https://decopsc.infinityfreeapp.com/?i=1",
       "badge": [
         {
           "_id": "4",
-          "badges": [{"_id":"1","badge":"Tailwind Css"}, {"_id":"2","badge":"React"}, {"_id":"3","badge":"javascript"}]
+          "badges": [{"_id":"1","badge":"Html"}, {"_id":"2","badge":"Css"}, {"_id":"3","badge":"Bootstrap"}]
         }
       ]
     }

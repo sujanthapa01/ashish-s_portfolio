@@ -30,13 +30,13 @@ export default function MarqueEffect() {
           <DiNodejsSmall className="text-[#83CD29]" />
           <DiNpm className="text-[#D50000]" />
           <RiTailwindCssFill className="text-[#00B9D8]" />
-            <RiNextjsFill className="text-[#080808]" />
+            <RiNextjsFill className="text-[#a7a6a6]" />
             <SiTypescript className="text-[#2D79C7]" />
             <SiNetlify className="text-[#05BEBA]" />
-            <RiPlayReverseLargeFill className="text-[#000000]" />
-            <SiJsonwebtokens className=" text-secondary-content" />
-            <SiNodemon className="text-[#4F4D3F]" />
-            <TbBrandThreejs className="text-[#080808]" />
+            <RiPlayReverseLargeFill className="text-[#bbb4b4]" />
+            <SiJsonwebtokens className=" text-purple-600" />
+            <SiNodemon className="text-[#37341e]" />
+            <TbBrandThreejs className="text-[#3b2828]" />
         </motion.div>
         <motion.div initial={{x:0}} animate={{x:"-100%"}} transition={{duration:15,ease:'linear',repeat:Infinity}} className="2stmarque  flex shrink-0 h-20 text-6xl gap-6 w-auto ">
           <FaReact className="text-[#00D8FF]" />
@@ -53,7 +53,7 @@ export default function MarqueEffect() {
             <SiTypescript className="text-[#2D79C7]" />
             <SiNetlify className="text-[#05BEBA]" />
             <RiPlayReverseLargeFill className="text-[#000000]" />
-            <SiJsonwebtokens className="text-secondary-content" />
+            <SiJsonwebtokens className="text-neutral" />
             <SiNodemon className="text-[#4F4D3F]" />
             <TbBrandThreejs className="text-[#080808]" />
         </motion.div>
