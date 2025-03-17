@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="sunset">
-      <body className="overflow-x-hidden scroll-smooth">
+      <body className="overflow-x-hidden scroll-smooth" cz-shortcut-listen="true">
         <Landing/>
         <Nav />
         {children}

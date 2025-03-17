@@ -1,0 +1,131 @@
+{
+  "responses": [
+    {
+      "question": "hi",
+      "response": "Hello! How can I help you?"
+    },
+    {
+      "question": "helo",
+      "response": "Hello! How can I help you?"
+    },
+    {
+      "question": "hlo",
+      "response": "Hello! How can I help you?"
+    },
+    {
+      "question": "hola",
+      "response": "Hello! How can I help you?"
+    },
+    {
+      "question": "how are you",
+      "response": "I am just a bot, but I am here to help you!"
+    },
+    {
+      "question": "what is your name",
+      "response": "I am Cocopi, your programming assistant."
+    },{
+      "question": "what is your name?",
+      "answer": "My name is Ashish. I am a Full stack web dev, and welcome to my portfolio website!"
+    },
+    {
+      "question": "what do you do",
+      "answer": "I specialize in web development. I create high-quality solutions for businesses, individuals, etc."
+    },
+    {
+      "question": "what services do you offer?",
+      "answer": "I offer a range of services including [list your services, e.g., website design, development, branding, consulting, etc.]. Feel free to check out my work samples!"
+    },
+    {
+      "question": "can I hire you for a project?",
+      "answer": "Absolutely! I'd love to help with your project. You can get in touch with me through my contact page."
+    },
+    {
+      "question": "where are you based?",
+      "answer": "I am based in [City, Country], but I work with clients globally."
+    },
+    {
+      "question": "how can I contact you?",
+      "answer": "You can contact me through the contact form on this website, or you can email me directly at [Your Email]."
+    },
+    {
+      "question": "can I see some of your past work?",
+      "answer": "Sure! You can explore my portfolio section where I showcase a variety of projects I've worked on."
+    },
+    {
+      "question": "what is your design process?",
+      "answer": "My design process includes understanding your needs, creating a concept, refining the design, and implementing the solution. I always ensure that the final product meets your goals."
+    },
+    {
+      "question": "do you work with teams or solo?",
+      "answer": "I usually work solo, but I collaborate with other professionals if the project requires additional expertise (e.g., developers, content creators)."
+    },
+    {
+      "question": "what tools do you use for your work?",
+      "answer": "I use [mention the tools you use, e.g., Adobe Creative Suite, Figma, Sketch, WordPress, etc.], depending on the project requirements."
+    },
+    {
+      "question": "do you provide ongoing support after the project is complete?",
+      "answer": "Yes! I offer ongoing support and maintenance packages to ensure your project stays up-to-date and functions smoothly."
+    },
+    {
+      "question": "how long does it take to complete a project?",
+      "answer": "The project timeline varies depending on its complexity. Generally, a simple project takes [provide time range], while more complex ones may take longer."
+    },
+    {
+      "question": "how do you price your services?",
+      "answer": "I offer competitive pricing based on the scope of the project. We can discuss the details and I’ll provide you with a customized quote."
+    },
+    {
+      "question": "can you create a custom website for my business?",
+      "answer": "Yes! I can build a custom website tailored to your business's needs. Feel free to share your ideas, and I'll help bring them to life."
+    },
+    {
+      "question": "do you offer free consultations?",
+      "answer": "Yes, I offer a free consultation to discuss your project requirements and see how I can help."
+    },
+    {
+      "question": "what makes you different from other [web developers/designers]?",
+      "answer": "What sets me apart is my focus on [mention what makes you unique, e.g., user-centered design, clean code, creative solutions, etc.]. I prioritize the needs of my clients and work closely with them to achieve the best results."
+    },
+    {
+      "question": "what is your availability like?",
+      "answer": "I am available for new projects starting [mention timeframe]. Feel free to reach out, and we can discuss your project timeline."
+    },
+    {
+      "question": "what do you need from me to get started?",
+      "answer": "To get started, I’ll need a brief overview of your project, your goals, any content (if applicable), and your budget. This will help me better understand your needs."
+    },
+    {
+      "question": "can you help with branding?",
+      "answer": "Yes! I offer branding services, including logo design, brand strategy, and visual identity creation."
+    },
+    {
+      "question": "do you offer SEO services?",
+      "answer": "Yes, I provide SEO services to ensure your website ranks well on search engines and reaches your target audience effectively."
+    },
+    {
+      "question": "can you design mobile-friendly websites?",
+      "answer": "Definitely! I create responsive websites that look great on all devices, including desktops, tablets, and smartphones."
+    },
+    {
+      "question": "do you provide training on how to use my website after it's built?",
+      "answer": "Yes! I offer training sessions to teach you how to manage and update your website, ensuring you're comfortable using it."
+    },
+    {
+      "question": "what is your experience?",
+      "answer": "I have [X] years of experience in [your field], having worked on a variety of projects ranging from [list types of projects]."
+    },
+    {
+      "question": "how do I get started with a project?",
+      "answer": "You can get started by reaching out through the contact form or by sending me an email. Let’s discuss your project, and we can begin planning!"
+    },
+    {
+      "question": "can you create e-commerce websites?",
+      "answer": "Yes! I specialize in creating e-commerce websites that are easy to use, visually appealing, and fully functional."
+    },
+    {
+      "question": "do you offer website hosting services?",
+      "answer": "While I don’t offer hosting directly, I can recommend reliable hosting providers based on your website’s needs."
+    }
+  ]
+}

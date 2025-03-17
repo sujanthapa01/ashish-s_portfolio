@@ -1,0 +1,57 @@
+{
+  "title": "Projects",
+  "cont": [
+    {
+      "_id": 1,
+      "img": "@public/globe.svg",
+      "heading": "Edumatica",
+      "description": "Eduvibe is a platform that allow users to learn different languages",
+      "link": "https://eduviibe.netlify.app/",
+      "badge": [
+        {
+          "_id": "1",
+          "badges": [{"_id":"1","badge":"Tailwind Css"}, {"_id":"2","badge":"React"}, {"_id":"3","badge":"javascript"}]
+        }
+      ]
+    },
+    {
+      "_id": 2,
+      "img": "@public/file.svg",
+      "heading": "Spotify clone",
+      "description": "Eduvibe is a platform that allow users to learn different languages",
+      "link": "",
+      "badge": [
+        {
+          "_id": "2",
+          "badges": [{"_id":"1","badge":"Tailwind Css"}, {"_id":"2","badge":"React"}, {"_id":"3","badge":"javascript"}]
+        }
+      ]
+    },
+    {
+      "_id": 3,
+      "img": "@public/file.svg",
+      "heading": "Item 3",
+      "description": "Description for item 3.",
+      "link": "",
+      "badge": [
+        {
+          "_id": "3",
+          "badges": [{"_id":"1","badge":"Tailwind Css"}, {"_id":"2","badge":"React"}, {"_id":"3","badge":"javascript"}]
+        }
+      ]
+    },
+    {
+      "_id": 4,
+      "img": "@public/file.svg",
+      "heading": "Item 3",
+      "description": "Description for item 3.",
+      "link": "",
+      "badge": [
+        {
+          "_id": "4",
+          "badges": [{"_id":"1","badge":"Tailwind Css"}, {"_id":"2","badge":"React"}, {"_id":"3","badge":"javascript"}]
+        }
+      ]
+    }
+  ]
+}
