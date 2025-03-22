@@ -86,8 +86,9 @@ export default function Users() {
       <motion.main
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 100 }}
+        viewport={{once:true}}
         transition={{ delay: 0.3, duration: 1 }}
-        className="min-w-screen min-h-auto flex flex-col items-center p-10 justify-center"
+        className="min-w-screen min-h-auto flex flex-col items-center p-10 justify-center "
       >
         <div className="page3rd h-full w-full p-14 md:w-3/4 overflow-x-hidden">
           <MarqueEffect />

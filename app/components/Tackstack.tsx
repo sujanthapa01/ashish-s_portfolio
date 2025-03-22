@@ -8,7 +8,7 @@ export default function Tackstack(){
           <div className="flex flex-wrap py-9 gap-3">
             {Badge.badges.map((bg)=>(
               <div  key={bg.id}>
-          <div className='text-xl px-4 py-2 text-white bg-neutral-600 rounded-2xl'>{bg.badge}</div>
+          <div className='text-xl px-4 py-2 text-white bg-neutral-900 hover:bg-neutral-700 rounded-2xl cursor-cell duration-500'>{bg.badge}</div>
               </div>
             ))}
           </div>

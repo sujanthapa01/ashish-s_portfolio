@@ -8,13 +8,13 @@ export default function Project() {
   return (
     <div className=" min-w-screen min-h-auto flex flex-col  items-center justify-center pt-18 pb-20">
      <h1 className="text-3xl font-semibold underline">{Data.title}</h1>
+    
       <main className="w-auto flex justify-center flex-wrap gap-6 xl:w-3/5 h-auto p-8">
      {Data.cont.map((cont)=>{
         return <motion.div
-        initial={{scale:0.9,opacity:0}}
-        animate={{scale:1,opacity:100}}
+        initial={{opacity:0}}
+        animate={{opacity:100}}
         transition={{duration:1}}
-        viewport={{once:true}}
         className="project border overflow-hidden h-auto w-auto min-[376px]:w-80 rounded-xl hover:-translate-y-3  md:transition-transform md:duration-200"
       key={cont._id}
       >

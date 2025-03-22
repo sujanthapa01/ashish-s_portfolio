@@ -15,16 +15,16 @@ export default function Nav() {
                     top: 0,
                     left: 0,
                     right: 0,
-                    height: 3,
+                    height: 1,
                     originX: 0,
                     backgroundColor: "#27A8EF",
                 }}
             />
       <ul
-        className="px-4 lg:block hidden tooltip animate-bounce text-orange-400 -rotate-10 text-2xl font-black tooltip-bottom tooltip-success"
+        className="  lg:block hidden tooltip animate-bounce cabin-7 text-orange-400 -rotate-10 text-2xl font-black tooltip-bottom tooltip-success"
         data-tip="Hi, I am Ashish"
       >
-        <Link className=" avatar avatar-online w-11 h-11" href="/">
+        <Link className=" avatar avatar-online w-11 h-11 hover:rotate-360 duration-500" href="/">
           <img src={Logo.src} alt="logo" className="h-10 rounded-full ring-primary ring-offset-base-100  ring ring-offset-2  w-11" />
         </Link>
       </ul>

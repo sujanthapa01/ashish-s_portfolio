@@ -12,7 +12,7 @@ export default function Contact() {
         <title>Contact Us</title>
         <meta name="description" content="Contact us for inquiries or support" />
       </Head>
-      <div className="min-h-screen  flex justify-center items-center py-12">
+      <div className="min-h-screen flex justify-center items-center py-12">
         <div className=" p-8 sm:p-10 md:w-3/6 md:p-12 lg:p-16 rounded-xl shadow-xl max-w-4xl w-full">
           <h1 className="text-4xl font-extrabold text-center mb-6">Contact Us</h1>
           <p className="text-center text-lg text-gray-600 mb-10">
@@ -28,7 +28,7 @@ export default function Contact() {
                   id="name"
                   name="name"
                   required
-                  className="mt-2 p-4 w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="mt-2 p-3 w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
 
@@ -39,7 +39,7 @@ export default function Contact() {
                   id="email"
                   name="email"
                   required
-                  className="mt-2 p-4 w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="mt-2 p-3 w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
             </div>
