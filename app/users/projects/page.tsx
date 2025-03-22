@@ -11,10 +11,11 @@ export default function Project() {
       <main className="w-auto flex justify-center flex-wrap gap-6 xl:w-3/5 h-auto p-8">
      {Data.cont.map((cont)=>{
         return <motion.div
-        initial={{y:100,opacity:0}}
-        animate={{y:0,opacity:100}}
-        transition={{duration:0.3}}
-        className="project border overflow-hidden h-auto w-auto min-[376px]:w-80 rounded-xl hover:-translate-y-3 transition-all duration-200"
+        initial={{scale:0.9,opacity:0}}
+        animate={{scale:1,opacity:100}}
+        transition={{duration:1}}
+        viewport={{once:true}}
+        className="project border overflow-hidden h-auto w-auto min-[376px]:w-80 rounded-xl hover:-translate-y-3  md:transition-transform md:duration-200"
       key={cont._id}
       >
         <div className="h-54 rounded-t-xl w-full">

@@ -22,11 +22,11 @@ export default function Users() {
                   initial={{ y: -70, opacity: 0 }}
                   animate={{ y: 0, opacity: 100 }}
                   transition={{ delay: 0.5, duration: 1 }}
-                  className="md:text-7xl min-[360px]:text-5xl  text-3xl font-bold flex gap-3 justify-center"
+                  className="md:text-7xl min-[360px]:text-5xl  text-3xl font-bold flex gap-3 justify-center -rotate-4"
                 >
-                  <h1>Hi,I am </h1>
-                  <a className=" text-transparent bg-clip-text bg-gradient-to-l -rotate-4 from-red-600  to-green-500 border-2 border-s-0 border-t-0 border-e-0 border-accent">
-                    {Data.name}
+                  <h1>Hi, I'm</h1>
+                  <a className=" text-transparent bg-clip-text bg-gradient-to-l -rotate-6 from-info to-accent-content border-2 border-s-0 border-t-0 border-e-0 border-accent">
+                   {Data.name} 
                   </a>
                 </motion.div>
                 <motion.p
@@ -65,6 +65,7 @@ export default function Users() {
                 initial={{ y: 100, opacity: 0, scale: 0.6 }}
                 whileInView={{ y: 0, opacity: 100, scale: 1 }}
                 transition={{ delay: 0.3, duration: 1 }}
+                viewport={{once:true}}
                 className="card border-s border-neutral shadow-lg rounded-2xl shadow-base-300 md:-rotate-2 hover:shadow-xl transform hover:scale-105"
               >
                 <div className="card-body grid grid-cols-2 gap-6">
@@ -100,7 +101,7 @@ export default function Users() {
         <h1 className="w-full md:w-3/5 text-5xl p-6 tektur-GG">Projects</h1>
         <div className="page h-full w-3/4 flex flex-wrap justify-center gap-15">
           <motion.div
-            whileHover={{ y: -5 }}
+            whileHover={{ y: -7 }}
             className="project border overflow-hidden h-auto  md:w-90 w-full rounded-xl"
           >
             <div className="h-54 rounded-t-xl w-full">
@@ -132,7 +133,7 @@ export default function Users() {
           </motion.div>
 
           <motion.div
-            whileHover={{ y: -5 }}
+            whileHover={{ y: -7 }}
             className="project border h-auto  md:w-90 w-full rounded-xl overflow-hidden"
           >
             <div className="h-54  rounded-t-xl w-full ">

@@ -1,9 +1,25 @@
+"use client"
 import Link from "next/link";
 import Logo from "../public/a-high-resolution-logo.png";
 import Search from "./components/Search";
+import { motion,useScroll } from "motion/react";
 export default function Nav() {
+  const { scrollYProgress } = useScroll()
   return (
-    <main className="h-12 mt-4 fixed w-full flex justify-evenly gap-2 items-center  z-10 "> 
+    <main className="h-12 mt-4  fixed w-full flex justify-evenly gap-2 items-center  z-10 "> 
+     <motion.div
+                id="scroll-indicator"
+                style={{
+                    scaleX: scrollYProgress,
+                    position: "fixed",
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    height: 3,
+                    originX: 0,
+                    backgroundColor: "#27A8EF",
+                }}
+            />
       <ul
         className="px-4 lg:block hidden tooltip animate-bounce text-orange-400 -rotate-10 text-2xl font-black tooltip-bottom tooltip-success"
         data-tip="Hi, I am Ashish"
