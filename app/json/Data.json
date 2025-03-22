@@ -7,45 +7,45 @@
     "content": [
       {
         "_id": 1,
-        "logo": "Logo 1",
-        "position": "Position 1",
-        "date": "Date 1",
-        "description": "Description 1"
+        "logo": "https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?cs=srgb&dl=pexels-markusspiske-965345.jpg&fm=jpg",
+        "position": "Junior Developer",
+        "date": "January 2020 - June 2020",
+        "description": "Worked on developing and maintaining web applications."
       },
       {
         "_id": 2,
-        "logo": "Logo 2",
-        "position": "Position 2",
-        "date": "Date 2",
-        "description": "Description 2"
+        "logo": "https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?cs=srgb&dl=pexels-markusspiske-965345.jpg&fm=jpg",
+        "position": "Frontend Developer",
+        "date": "July 2020 - December 2020",
+        "description": "Focused on creating responsive and interactive user interfaces."
       },
       {
         "_id": 3,
-        "logo": "Logo 3",
-        "position": "Position 3",
-        "date": "Date 3",
-        "description": "Description 3"
+        "logo": "https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?cs=srgb&dl=pexels-markusspiske-965345.jpg&fm=jpg",
+        "position": "Backend Developer",
+        "date": "January 2021 - June 2021",
+        "description": "Implemented server-side logic and database management."
       },
       {
         "_id": 4,
-        "logo": "Logo 4",
-        "position": "Position 4",
-        "date": "Date 4",
-        "description": "Description 4"
+        "logo": "https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?cs=srgb&dl=pexels-markusspiske-965345.jpg&fm=jpg",
+        "position": "Full-Stack Developer",
+        "date": "July 2021 - December 2021",
+        "description": "Handled both frontend and backend development tasks."
       },
       {
         "_id": 5,
-        "logo": "Logo 5",
-        "position": "Position 5",
-        "date": "Date 5",
-        "description": "Description 5"
+        "logo": "https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?cs=srgb&dl=pexels-markusspiske-965345.jpg&fm=jpg",
+        "position": "Project Manager",
+        "date": "January 2022 - June 2022",
+        "description": "Led a team of developers to deliver projects on time."
       },
       {
         "_id": 6,
-        "logo": "Logo 6",
-        "position": "Position 6",
-        "date": "Date 6",
-        "description": "Description 6"
+        "logo": "https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?cs=srgb&dl=pexels-markusspiske-965345.jpg&fm=jpg",
+        "position": "Senior Developer",
+        "date": "July 2022 - Present",
+        "description": "Mentored junior developers and contributed to high-level project decisions."
       }
     ]
   }

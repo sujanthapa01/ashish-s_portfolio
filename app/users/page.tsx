@@ -69,7 +69,7 @@ export default function Users() {
                 className="card border-s border-neutral shadow-lg rounded-2xl shadow-base-300 md:-rotate-2 hover:shadow-xl transform hover:scale-105"
               >
                 <div className="card-body grid grid-cols-2 gap-6">
-                  <h2 className="card-title">{exp.logo}</h2>
+                  <h2 className="card-title h-11 w-11 rounded-full bg-amber-100 text-black"><img className=" h-full w-full rounded-full object-cover" src={exp.logo} alt="" /></h2>
                   <p className="text-sm">{exp.date}</p>
                   <div className="flex flex-col gap-2">
                     <p className="text-sm">{exp.position}</p>
