@@ -22,7 +22,7 @@ export default function Users() {
                   initial={{ y: -70, opacity: 0 }}
                   animate={{ y: 0, opacity: 100 }}
                   transition={{ delay: 0.5, duration: 1 }}
-                  className="md:text-7xl min-[360px]:text-5xl  text-3xl font-bold flex gap-3 justify-center -rotate-4"
+                  className="md:text-7xl min-[360px]:text-5xl nabla-fier text-3xl font-bold flex gap-3 justify-center -rotate-4"
                 >
                   <h1>Hi, I'm</h1>
                   <a className=" text-transparent bg-clip-text bg-gradient-to-l -rotate-6 from-info to-accent-content border-2 border-s-0 border-t-0 border-e-0 border-accent">
