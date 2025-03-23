@@ -48,7 +48,7 @@ export default function Chatbot() {
               const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
             method: "POST",
             headers: {
-              "Authorization":process.env.API_KEY,
+              "Authorization":"Bearer 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",
               "HTTP-Referer": "<YOUR_SITE_URL>", // Optional. Site URL for rankings on openrouter.ai.
               "X-Title": "Portfolio", // Optional. Site title for rankings on openrouter.ai.
               "Content-Type": "application/json"
