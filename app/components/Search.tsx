@@ -1,11 +1,11 @@
 "use client"
 // components/Chatbot.tsx
-import React, { JSX, useState } from 'react';
+import React, { useState } from 'react';
 import { PiChatFill, PiChatSlashFill } from "react-icons/pi";
 import Dark from './Dark';
 
 type Message = {
-  text: string | JSX.Element;
+  text: string;
   sender: 'user' | 'bot';
 };
 
@@ -26,7 +26,7 @@ export default function Chatbot() {
       setTimeout(
         async () => {
         try {
-          let botResponse:string | JSX.Element ="";
+          let botResponse ="";
           if (input.toLowerCase().includes('about you')|| input.toLowerCase().includes("about")) {
             botResponse = 'Hello! I am a chatbot created to assist you. I can help you with various tasks and provide information about this website.';
           }else if(input.toLowerCase().includes("about this website")){
@@ -42,13 +42,13 @@ export default function Chatbot() {
             } else if (input.toLowerCase().includes("pricing information")) {
             botResponse = "For pricing information, please contact the creator directly through the contact form or email.";
             } else if (input.toLowerCase().includes("portfolio")|| input.toLowerCase().includes("projects")) {
-            botResponse = <div className='h-24 w-24 rounded-2xl bg-gray-600'> Projects</div>;
+            botResponse = "Projects"
             }
              else {
               const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
             method: "POST",
             headers: {
-              "Authorization": "Bearer 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",
+              "Authorization":process.env.API_KEY,
               "HTTP-Referer": "<YOUR_SITE_URL>", // Optional. Site URL for rankings on openrouter.ai.
               "X-Title": "Portfolio", // Optional. Site title for rankings on openrouter.ai.
               "Content-Type": "application/json"
