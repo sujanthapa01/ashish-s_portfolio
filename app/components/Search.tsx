@@ -28,13 +28,13 @@ export default function Chatbot() {
           const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
             method: "POST",
             headers: {
-              "Authorization": "Bearer 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",
+              "Authorization": "Bearer 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",
               "HTTP-Referer": "<YOUR_SITE_URL>", // Optional. Site URL for rankings on openrouter.ai.
-              "X-Title": "Portfoli", // Optional. Site title for rankings on openrouter.ai.
+              "X-Title": "<YOUR_SITE_NAME>", // Optional. Site title for rankings on openrouter.ai.
               "Content-Type": "application/json"
             },
             body: JSON.stringify({
-              "model": "deepseek/deepseek-r1:free",
+              "model": "nvidia/llama-3.1-nemotron-70b-instruct:free",
               "messages": [
                 {
                   "role": "user",
@@ -66,7 +66,7 @@ export default function Chatbot() {
     <>
     <main className=' -z-10'>
       <div className='flex gap-2 sm:gap-4 text-white'>
-        <button className='min-[275]:text-2xl p-1 z-20' onClick={() => { setOpen(!Open) }}>
+        <button className='min-[275]:text-2xl p-1 z-20 text-neutral-600' onClick={() => { setOpen(!Open) }}>
           {Open ? <PiChatSlashFill /> : <PiChatFill />}
         </button>
         <Dark />
