@@ -15,7 +15,7 @@ export default function Project() {
         initial={{opacity:0}}
         animate={{opacity:100}}
         transition={{duration:1}}
-        className="project border overflow-hidden h-auto w-auto min-[376px]:w-80 rounded-xl hover:-translate-y-3  md:transition-transform md:duration-200"
+        className="project border text-white bg-neutral-900 hover:shadow-2xl shadow-neutral-800 overflow-hidden h-auto w-auto min-[376px]:w-80 rounded-xl hover:-translate-y-3  md:transition-transform md:duration-200"
       key={cont._id}
       >
         <div className="h-54 rounded-t-xl w-full">
@@ -35,13 +35,13 @@ export default function Project() {
             </Link>
           </div>
           <p className="w-full py-2 px-4">{cont.description}</p>
-          <div className="flex w-full  gap-y-1 p-4 flex-wrap">
+          <div className="flex w-full  gap-x-0.5 gap-y-1 p-4 flex-wrap">
             {cont.badge.map((bg)=>{
              return (
               <div key={bg._id}>
                 {bg.badges.map((h) => {
                   return (
-                    <div className="badge badge-neutral" key={h._id}>
+                    <div className="badge text-white bg-neutral-800  border-black border" key={h._id}>
                       {h.badge}
                     </div>
                   );

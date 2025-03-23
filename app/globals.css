@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Bytesized&family=Cabin&family=Nabla&family=Nunito:wght@500&family=Poppins:ital,wght@0,200;0,400;0,600;1,200&family=Tektur:wght@400..900&family=Winky+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Bytesized&family=Cabin&family=Foldit:wght@100..900&family=Honk&family=Nabla&family=Nunito:wght@500&family=Poppins:ital,wght@0,200;0,400;0,600;1,200&family=Tektur:wght@400..900&family=Winky+Sans&display=swap');
 @import "tailwindcss";
 
 @plugin "daisyui" {
@@ -133,4 +133,19 @@
   font-variation-settings:
     "EDPT" 100,
     "EHLT" 12;
+}
+.honk-j {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+.foldit-y {
+  font-family: "Foldit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }

@@ -22,10 +22,10 @@ export default function Users() {
                   initial={{ y: -70, opacity: 0 }}
                   animate={{ y: 0, opacity: 100 }}
                   transition={{ delay: 0.5, duration: 1 }}
-                  className="md:text-7xl min-[360px]:text-5xl nabla-fier text-3xl font-bold flex gap-3 justify-center -rotate-4"
+                  className="md:text-7xl min-[360px]:text-5xl honk-j text-3xl font-bold flex gap-3 justify-center -rotate-4"
                 >
                   <h1>Hi, I'm</h1>
-                  <a className=" text-transparent bg-clip-text bg-gradient-to-l -rotate-6 from-info to-accent-content border-2 border-s-0 border-t-0 border-e-0 border-accent">
+                  <a className=" -rotate-6  border-2 border-s-0 border-t-0 border-e-0 border-accent">
                    {Data.name} 
                   </a>
                 </motion.div>
@@ -62,7 +62,7 @@ export default function Users() {
             {Data.exp.content.map((exp) => (
               <motion.div
                 key={exp._id}
-                initial={{ y: 100, opacity: 0, scale: 0.6 }}
+                initial={{ y: 100, opacity: 0, scale: 0.8 }}
                 whileInView={{ y: 0, opacity: 100, scale: 1 }}
                 transition={{ delay: 0.3, duration: 1 }}
                 viewport={{once:true}}
@@ -99,11 +99,11 @@ export default function Users() {
       </motion.main>
       {/* page4th */}
       <main className="min-w-screen min-h-full w-full flex flex-col gap-5 md:p-10 items-center justify-center ">
-        <h1 className="w-full md:w-3/5 text-5xl p-6 tektur-GG">Projects</h1>
+        <h1 className="w-full md:w-3/5 text-5xl p-6 honk-j">Projects</h1>
         <div className="page h-full w-3/4 flex flex-wrap justify-center gap-15">
           <motion.div
             whileHover={{ y: -7 }}
-            className="project border overflow-hidden h-auto  md:w-90 w-full rounded-xl"
+            className="project border text-white bg-neutral-900 hover:shadow-2xl shadow-neutral-800 overflow-hidden h-auto  md:w-90 w-full rounded-xl"
           >
             <div className="h-54 rounded-t-xl w-full">
               <Image
@@ -122,20 +122,20 @@ export default function Users() {
                 </Link>
               </div>
               <p className="w-full py-2 px-4">Eduvibe is a platform that allow users to learn different languages</p>
-              <div className="flex  gap-y-1 p-4 flex-wrap">
-                <p className="badge badge-neutral">React</p>
-                <p className="badge badge-neutral">Tailwind Css</p>
-                <p className="badge badge-neutral">Javascript</p>
-                <p className="badge badge-neutral">Mongodb</p>
-                <p className="badge badge-neutral">Jwt</p>
-                <p className="badge badge-neutral">Express js</p>
+              <div className="flex gap-x-0.5  gap-y-1 p-4 flex-wrap">
+                <p className="badge text-white bg-neutral-800 border-black border">React</p>
+                <p className="badge text-white bg-neutral-800 border-black border">Tailwind Css</p>
+                <p className="badge text-white bg-neutral-800 border-black border">Javascript</p>
+                <p className="badge text-white bg-neutral-800 border-black border">Mongodb</p>
+                <p className="badge text-white bg-neutral-800 border-black border">Jwt</p>
+                <p className="badge text-white bg-neutral-800 border-black border">Express js</p>
               </div>
             </div>
           </motion.div>
 
           <motion.div
             whileHover={{ y: -7 }}
-            className="project border h-auto  md:w-90 w-full rounded-xl overflow-hidden"
+            className="project border text-white bg-neutral-900 hover:shadow-2xl shadow-neutral-800 h-auto  md:w-90 w-full rounded-xl overflow-hidden"
           >
             <div className="h-54  rounded-t-xl w-full ">
               <Image
@@ -154,10 +154,10 @@ export default function Users() {
                 </Link>
               </div>
               <p className="w-full py-2 px-4">It is a clone of Spotify full code not upload in website</p>
-              <div className="flex  gap-y-1 p-4 flex-wrap">
-                <p className="badge badge-neutral">React</p>
-                <p className="badge badge-neutral">Tailwind Css</p>
-                <p className="badge badge-neutral">Javascript</p>
+              <div className="flex gap-x-0.5  gap-y-1 p-4 flex-wrap text-white">
+                <p className="badge  text-white bg-neutral-800 border-black border">React</p>
+                <p className="badge text-white bg-neutral-800 border-black border">Tailwind Css</p>
+                <p className="badge text-white bg-neutral-800  border-black border">Javascript</p>
               </div>
             </div>
           </motion.div>
