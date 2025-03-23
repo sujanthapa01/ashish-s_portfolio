@@ -1,11 +1,11 @@
 "use client"
 // components/Chatbot.tsx
-import React, { useState } from 'react';
+import React, { JSX, useState } from 'react';
 import { PiChatFill, PiChatSlashFill } from "react-icons/pi";
 import Dark from './Dark';
 
 type Message = {
-  text: string;
+  text: string | JSX.Element;
   sender: 'user' | 'bot';
 };
 
@@ -23,14 +23,34 @@ export default function Chatbot() {
       setLoading(true);
 
       // Simulate a bot response based on user input
-      setTimeout(async () => {
+      setTimeout(
+        async () => {
         try {
-          const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+          let botResponse:string | JSX.Element ="";
+          if (input.toLowerCase().includes('about you')|| input.toLowerCase().includes("about")) {
+            botResponse = 'Hello! I am a chatbot created to assist you. I can help you with various tasks and provide information about this website.';
+          }else if(input.toLowerCase().includes("about this website")){
+             botResponse = "This website is created by Ashish. It uses various frameworks and packages including React for the frontend, Next.js for server-side rendering, and Tailwind CSS for styling. Additionally, it leverages Axios for making HTTP requests and React Icons for icons.";
+            } else if (input.toLowerCase().includes("technologies used")) {
+            botResponse = "The technologies used in this website include React, Next.js, Tailwind CSS, and Axios.";
+            } else if (input.toLowerCase().includes("purpose of this website")) {
+            botResponse = "The purpose of this website is to showcase a portfolio of projects and provide information about the creator's skills and experience.";
+            } else if (input.toLowerCase().includes("contact information")) {
+            botResponse = "You can contact the creator via email at kapoorashish714@gmail.com or through the contact form on the website.";
+            } else if (input.toLowerCase().includes("services offered")) {
+            botResponse = "The services offered include web development, mobile app development";
+            } else if (input.toLowerCase().includes("pricing information")) {
+            botResponse = "For pricing information, please contact the creator directly through the contact form or email.";
+            } else if (input.toLowerCase().includes("portfolio")|| input.toLowerCase().includes("projects")) {
+            botResponse = <div className='h-24 w-24 rounded-2xl bg-gray-600'> Projects</div>;
+            }
+             else {
+              const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
             method: "POST",
             headers: {
-              "Authorization": "Bearer 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",
+              "Authorization": "Bearer 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",
               "HTTP-Referer": "<YOUR_SITE_URL>", // Optional. Site URL for rankings on openrouter.ai.
-              "X-Title": "<YOUR_SITE_NAME>", // Optional. Site title for rankings on openrouter.ai.
+              "X-Title": "Portfolio", // Optional. Site title for rankings on openrouter.ai.
               "Content-Type": "application/json"
             },
             body: JSON.stringify({
@@ -38,14 +58,15 @@ export default function Chatbot() {
               "messages": [
                 {
                   "role": "user",
-                  "content": input.toLowerCase()
+                  "content": input.toLowerCase(),
                 }
               ]
             })
           });
 
           const data = await response.json();
-          const botResponse = data.choices[0].message.content;
+           botResponse = data.choices[0].message.content || "internal server error";
+        }
           setMessages((msgs) => [...msgs, { text: botResponse, sender: 'bot' }]);
           setLoading(false);
         } catch (error) {
