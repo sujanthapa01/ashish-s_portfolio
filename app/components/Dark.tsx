@@ -1,7 +1,7 @@
 export default function Dark() {
   return (
     <>
-      <label className="swap swap-rotate">
+      <label className="swap swap-rotate z-20">
         <input type="checkbox" className="theme-controller" value="cupcake" />
 
         <svg
